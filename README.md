@@ -1,8 +1,8 @@
-# React + Vite
+### The goal of this project is to practice testing hooks since they work a bit different than components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Procedures
+- Test the following features of the useLocalStorage hook:
+- Ensure the initial value passed to the useLocalStorage hook is stored in localStorage. This should also work with passing a function to useLocalStorage as well.
+- Ensure localStorage is updated whenever setValue is called.
+- Ensure localStorage is cleared whenever setValue is called with undefined.
+- Ensure useLocalStorage uses the value from localStorage if it exists instead of the initial value passed to useLocalStorage.

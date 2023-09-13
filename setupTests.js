@@ -1,6 +1,7 @@
-const matchers = require("@testing-library/jest-dom/types/matchers")
-const { cleanup } = require("@testing-library/react")
-const { afterEach, expect } = require("vitest")
+import matchers from "@testing-library/jest-dom/types/matchers"
+import { cleanup } from "@testing-library/react"
+import { afterEach, expect } from "vitest"
+
 
 expect.extend(matchers)
 
